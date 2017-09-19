@@ -1,0 +1,8 @@
+div{
+    width: 1980px;
+    height: 1311px;
+    border-radius: 50px;
+    border: 20px groove tomato;
+    background-size: cover;
+    background:  url("rose.jpg") no-repeat;
+}
