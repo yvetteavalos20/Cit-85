@@ -1,13 +1,6 @@
-div{
+div {
     width: 400px;
     height: 200px;
-    border: 10px dashed red;
-    margin: 20px auto;
-}
-div{
-    width: 400px;
-    height: 200px;
-    border: 10px dashed red;
-    margin: 20px auto;
-    box-sizing: border-box;
+    background-color: red;
+    border: groove 20px;
 }
