@@ -1,0 +1,16 @@
+html, body, div{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+.s1, .s2, .s3, .s4, .s5{
+    width: 100%;
+    min-height: 150px;
+}
