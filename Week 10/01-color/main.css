@@ -1,0 +1,31 @@
+html, body, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    flex-grow: 1;
+    width: 100vw;
+    height: 33.33333vh;
+}
+#s1{
+    background-color: hsla(180, 50%, 50%, .9);
+}
+#s2{
+    background-color: hsla(300, 50%, 50%, .9);
+}
+#s3{
+    background-color: hsla(020, 50%, 50%, .9);
+}
+#s4{
+    background-color: hsla();
+}
