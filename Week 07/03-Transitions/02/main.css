@@ -19,7 +19,9 @@ div{
     transition-property: all;
     transition-duration: 500ms;
     transition-timing-function: ease-out;
+    transform: inherit;
 }
+
 div:hover{
     background-color: #136de9;
 }
