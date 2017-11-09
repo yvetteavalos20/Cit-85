@@ -1,13 +1,26 @@
-body {
-    font-size: 36px;
+ul li {
+    color: blue;
 }
-
-li:first-child {
+ul li:first-child {
+    color: red;
+    font-weight: bold;
+}
+ul li:last-child {
+    border: 1px solid red;
     color: red;
 }
-p:last-child {
-    background: #ff0000;
+ul li:nth-child(2n+1){
+    color: yellow;
 }
-p:nth-child(2) {
-    background: red;
+ul li:nth-child(2n){
+    color: green;
+}
+li:nth-child(3){
+    border: 1px solid black;
+}
+li:nth-last-child(10){
+    background-color: #0ebfe9;
+}
+article:only-child{
+    color: skyblue;
 }
