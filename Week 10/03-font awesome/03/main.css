@@ -1,18 +1,42 @@
-html, body, span{
-    padding: 0;
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
+section {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-bottom-width: 4px;
+    border-bottom-style: groove;
+    border-bottom-color: #4c2b03;
 }
 
-body{
-    height: 100vh;
+.list-group {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
-#{
-    color: palevioletred;
-    font-size: 500px;
+.list-group a {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    width: 175px;
+    height: 40px;
+    padding-left: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4c2b03;
+}
+
+.list-group a:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.pull-quote {
+    width: 175px;
+}
+
+.animated {
+    font-size: 50px;
+}
+
+.text-danger {
+    color: red;
 }
