@@ -1,0 +1,12 @@
+
+body {
+    margin: 2em;
+    background-image: url('checker.png');
+    background-repeat: repeat;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
